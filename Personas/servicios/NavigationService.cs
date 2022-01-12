@@ -7,11 +7,11 @@ namespace Personas
 {
     class NavigationService
     {
-        private readonly UserControl listadoPersonas;
+        private static readonly UserControl listadoPersonas = new ListadoPersonasUserControl();
 
         public NavigationService()
         {
-            listadoPersonas = new ListadoPersonasUserControl();
+            
         }
 
         public UserControl ObtenerNuevaPersona()

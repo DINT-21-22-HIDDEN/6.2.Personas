@@ -41,7 +41,7 @@ namespace Personas
 
         private void AñadirNacionalidad()
         {
-           bool? resultado =  navegacion.AbrirDialogoNacionalidad();
+           navegacion.AbrirDialogoNacionalidad();
         }
 
         private void AñadirPersona()
